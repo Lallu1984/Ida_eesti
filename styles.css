@@ -1,0 +1,195 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.Main {
+    background-color: white;
+    align-items: center;
+    margin: 0px 8px 40px 8px;
+    padding: 20px 8px 20px 8px;
+    min-width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: visible;
+}
+
+#category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding: 8px 19px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+div.liner {
+    background-color: black;
+    height: 2px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.needs_table {
+    position: absolute; 
+    bottom: 0; width: 100%; 
+    color: white; 
+    background-color: #6c829d; 
+    opacity: 69%; 
+    text-align: center;
+    height: 50px;
+}
+
+th {
+    padding-top: 10px;
+}
+
+.needs_table td {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.needs_table th {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+div.col1, div.col2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 10px solid; border-color: #6c829d;
+    padding-bottom: 5px;
+}
+
+div.col1 {
+    display: inline-block;
+}
+
+
+div.ingredients p {
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.instructions p.number {
+    background-color: #6c829d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+table.instructions td.instruction_step {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+table.instructions td {
+    vertical-align: top;
+}
+
+table.instructions tr {
+    height: 40px;
+}
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+    .Main {
+        align-items: center;
+        margin: 0px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+
+    .needs_table {
+        position: absolute; 
+        bottom: 0; width: 100%; 
+        color: white; 
+        background-color: #6c829d; 
+        opacity: 69%; 
+        text-align: center;
+        height: 80px;
+    }
+  
+    .needs_table td {
+        font-size: 14px;
+    }
+    
+    .needs_table th {
+        font-size: 16px;
+    }
+
+    div.col1, div.col2 {
+        width: 45%;
+    }
+
+    div.col1 {
+        margin-right: 10%;
+    }
+    
+    div.col2 {
+       float: right;
+    }
+
+  }
+/* Very large screen */
+@media only screen and (min-width: 900px) {
+    .Main {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 650px;
+    }
+
+    }
